@@ -2,6 +2,12 @@
 ```python
 - multiple linear regression
   - ^Y = b0 + b1x1 + b2x2 + ... bnxn
+  
+  - no need to apply feature scaling in multiple linear regression
+  
+  - no need to check linear assumption
+  
+  - scikit-learn library takes care of features when training model
 
 - dummy variable trap
 
@@ -10,6 +16,9 @@
   - confident level = 1 - significant level
   - significant level default as a = 0.05 which means i'm 95% confidence that ....
   
+  
+* note: sklearn package can take cares of which parameters are important and no need to manually get "important" variables to the model
+
 - 5 methods of building models:
   - all in (select all independent variables/use to prepare for backward elimination)
   
@@ -21,7 +30,7 @@
     - step3 consider predictor with highest p-value and if p-value > significant level then delete this predictor
     
     - step4 fit model without this variable
-    
+     
     - step if all predictors' p-value are < significant level then our model is ready
     
   
@@ -51,6 +60,10 @@
    - build all possible of regression model
    
    - select the one with best criterion
+   
+   
+   
+   
 
 
 
