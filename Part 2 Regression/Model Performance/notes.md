@@ -4,6 +4,9 @@
 The following metrics are for regression problems
 
 * R-squared
+
+  - can be negative, the model performs poorly
+  
   
   - Rule of Thumb for model performance
   
