@@ -13,7 +13,7 @@
     
     
   * Kernel function
-    * Gaussian RBF Kernel
+    * Gaussian RBF Kernel(kernel trick)
       - create non-linear separation without going into higher dimensions
 
       - 通过计算kernel 得出一个value, 然后通过这个value来分类 data points 是属于哪个一个cluster
@@ -23,6 +23,8 @@
     
     * polynomial kernel
 
+
+  
 
 
 
