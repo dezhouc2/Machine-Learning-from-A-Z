@@ -7,7 +7,7 @@
     - Regression Trees(numeric variable)
   
   * definition:
-    - split the dataset into several chunk by the value until getting the maximum(leaf).
+    - split the dataset into several chunk by the value to find the optimal splits
     
     - each of the leaves represent the final decision
 
