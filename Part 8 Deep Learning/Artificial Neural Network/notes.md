@@ -2,6 +2,11 @@
 ```python
    * Practical:
      - deep learning MUST implement Feature scaling
+       
+       - Feature scaling for all input including X_train, X_test
+     
+     - input neurons in the input layer:
+       - #number of neurons represent numbers of features
    
    
      - difference between onehotencoder and labelencoder?
