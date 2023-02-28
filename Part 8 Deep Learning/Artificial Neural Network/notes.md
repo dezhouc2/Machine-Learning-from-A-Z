@@ -1,6 +1,8 @@
 
 ```python
    
+   Fitness: Artificial Netrual Network can be used for both regression and classification problems.
+   
    idea: input layers, hidden layers and output layers; how these three layers interact with each other.
    
    - input layer: a combination of many values such as X1,X2....Xm
