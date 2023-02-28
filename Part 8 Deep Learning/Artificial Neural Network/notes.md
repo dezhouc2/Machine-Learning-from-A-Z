@@ -48,10 +48,57 @@
         Step3: adjust matrix W using sum of cost function 
 
         Step4: repeat Step 1 - 3
+    
+    
+    * Gradient Descent(sometimes called batch Gradient Descent):
+      Q: how these weights adjust?
+      A: using Gradient Descent to find out the position of the optimal weights(minimize the cost function) by determining which way the slope goes
+      
+      
+    * Stochastic Gradient Descent
+      
+      Q: what if the cost function if not convex?(not 1/2(expected y - y)^2) we can only find the local optimal but not global optimal
+      A: using SDG 
+      
+      definition: for each of the row, run one time and then adjust the weight until finish running all of the rows
+         - compare to gradient descent
+            - run all of the rows and then update the weights
+            
+            - each time gradient descent runs, each of the rows gets the same result
+      
+      advantages:
+         - avoid finding the local optimal but finding the global optimal instead
+         - faster than GD
+         
+         
+     * mini batch gradient descent:
+         - run batches of 5,10 or 100 rows, run this number of rows at a time and then update the weights
+      
+     neutral network training process:
+     * forward propagation:
+         - get output layer from input layer and then hidden layer, then get the predicted Y and then calculate cost function 
+         
+     * backward propagation:
+         - from cost function update weights via hidden layers
+         
+         - main key: able to adjust all of the weights at the same time(for each batch)
      
+     
+     * Training the Artificial Neural Network with Stochatic Gradient Descent:
+         - Step1: randomly set the weights to small number close to 0 but not 0
+         
+         - Step2: input data, each feature for each row
+         
+         - Step3: forward propagation: from left to right, via weights, inner layer and outer layer to get the predict Y
+         
+         - Step4: compare the predicted result and the actual result. measure the generated error
+         
+         - step 5: backward propagation: from right to left, update the weights according to how much they are responsible for. 
+                  Learning rates decides how much we update the weights.
+          
+         - Step 6: repeat step 1-5 and update weights after each row(Reinforcement Learning); or repeat step 1-5 but update the weights
+                  after a batch of rows(batch learning)
 
-
-
-
+         - step 7: when the whole training set passed via ANN, this makes an epoch. Redo more epochs.
 
 ```
