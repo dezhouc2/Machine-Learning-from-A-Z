@@ -1,5 +1,15 @@
 
 ```python
+   * Practical:
+     - deep learning MUST implement Feature scaling
+   
+   
+     - difference between onehotencoder and labelencoder?
+       
+       - labelencoder only binary 0 or 1
+       
+       - onehotencoder contains multiple categorics
+
    
    Fitness: Artificial Netrual Network can be used for both regression and classification problems.
    
