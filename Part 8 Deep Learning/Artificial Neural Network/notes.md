@@ -4,10 +4,11 @@
    idea: input layers, hidden layers and output layers; how these three layers interact with each other.
    
    - input layer: a combination of many values such as X1,X2....Xm
+     - value: each of the values represent a kind of features
    
      - action: weight each of the values and then pass into inner layer
        
-       - purpose of weight: denote which values are important
+     - purpose of weight: denote which values are important
    
    - inner layer: sum of wixi for i = 1,....m and then apply activiation function and then signal pass into output layer
      
