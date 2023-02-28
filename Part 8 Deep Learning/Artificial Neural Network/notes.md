@@ -39,14 +39,15 @@
       
       Cost function = 1/2*sum((y^i-yi)^2) for i = 1,...,m 
    
-   idea: (find the optimal solution which is minimize the cost function)
-     Step1: each of the rows train and result one expected yi
-     
-     Step2: calculate each of the cost function i for each (yi^,yi) pair, then calculate the sum of cost function
-     
-     Step3: adjust matrix W using sum of cost function 
-     
-     Step4: repeat Step 1 - 3
+   This whole process is called Back Propagation:
+      idea: (find the optimal weights which is minimize the cost function)
+        Step1: each of the rows train and result one expected yi
+
+        Step2: calculate each of the cost function i for each (yi^,yi) pair, then calculate the sum of cost function
+
+        Step3: adjust matrix W using sum of cost function 
+
+        Step4: repeat Step 1 - 3
      
 
 
