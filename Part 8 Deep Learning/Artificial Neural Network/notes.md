@@ -21,7 +21,33 @@
 
 
    - output layer: apply sigmoind function and then output values 
-
+   
+   
+   Question: how do neural network learn?
+   
+   Overall component:
+      
+      input layer X = [X1,X2,...,Xm]; each of the Xi is a feature
+      
+      Weighted matrix W = [W1,W2,...,Wm]; the weight is the same for all row
+      
+      hidden layer = sum(wixi) for i = 1,...m
+      
+      output layer = expected Y = [y^1, y^2, ..., y^m]
+      
+      real output Y = [y1,y2,...,ym ]
+      
+      Cost function = 1/2*sum((y^i-yi)^2) for i = 1,...,m 
+   
+   idea: (find the optimal solution which is minimize the cost function)
+     Step1: each of the rows train and result one expected yi
+     
+     Step2: calculate each of the cost function i for each (yi^,yi) pair, then calculate the sum of cost function
+     
+     Step3: adjust matrix W using sum of cost function 
+     
+     Step4: repeat Step 1 - 3
+     
 
 
 
