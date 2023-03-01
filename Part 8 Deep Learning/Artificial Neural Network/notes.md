@@ -14,6 +14,10 @@
        - labelencoder only binary 0 or 1
        
        - onehotencoder contains multiple categorics
+       
+     
+     - compile ANN step: the step that denotes all kinds of the parameters before training model
+       such as setting up loss function, optimizer, metrics
 
    
    Fitness: Artificial Netrual Network can be used for both regression and classification problems.
