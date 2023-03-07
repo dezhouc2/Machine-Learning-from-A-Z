@@ -19,7 +19,7 @@
   - implement a parameter to avoid random initilization trap; "K-means++"
   
   
-  
+  - After getting the optimal numbers of clusters, each of the cluster groups the data by similarity, set the predict method as the Y variable
    
 
 
